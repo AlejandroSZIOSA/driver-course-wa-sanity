@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'driver-course-san',
 
-  projectId: '16kxq2ct',
-  dataset: 'production',
+  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID,
+  dataset: import.meta.env.SANITY_STUDIO_DATASET,
 
   plugins: [structureTool(), visionTool()],
 
