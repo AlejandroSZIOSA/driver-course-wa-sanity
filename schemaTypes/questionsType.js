@@ -9,28 +9,28 @@ export const questionsType = defineType({
     defineField({
       name: 'question',
       type: 'string',
-      title: 'Question',
+      title: 'question',
     }),
     defineField({
       name: 'answer',
       type: 'string',
-      title: 'Answer',
+      title: 'answer',
     }),
     defineField({
       name: 'wrongAnswers',
       type: 'array',
       of: [{type: 'string'}],
-      title: 'Wrong Answers',
+      title: 'wrongAnswers',
     }),
     defineField({
       name: 'imageUrl',
       type: 'image',
-      title: 'Question Image',
+      title: 'questionImg',
     }),
     defineField({
       name: 'description',
       type: 'string',
-      title: 'Description',
+      title: 'description',
     }),
   ],
 })
