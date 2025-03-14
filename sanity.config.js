@@ -15,4 +15,8 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
+
+  api: {
+    token: import.meta.env.SANITY_API_TOKEN, //add token
+  },
 })
