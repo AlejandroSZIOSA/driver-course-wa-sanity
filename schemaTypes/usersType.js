@@ -2,9 +2,9 @@ import {defineField, defineType} from 'sanity'
 
 //Schemas :)
 export const usersType = defineType({
-  name: 'users',
+  name: 'user',
   type: 'document',
-  title: 'Users',
+  title: 'User',
   fields: [
     defineField({
       name: 'email',
