@@ -1,6 +1,6 @@
 import {defineField, defineType} from 'sanity'
 
-//Schemmas :)
+//Schemas :)
 export const questionsType = defineType({
   name: 'questions',
   type: 'document',
