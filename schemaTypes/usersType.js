@@ -10,11 +10,13 @@ export const usersType = defineType({
       name: 'email',
       type: 'string',
       title: 'email',
+      validation: (Rule) => Rule.email(),
     }),
     defineField({
       name: 'password',
       type: 'string',
-      title: 'password',
+      title: 'hashed password',
+      hidden: true,
     }),
   ],
 })
