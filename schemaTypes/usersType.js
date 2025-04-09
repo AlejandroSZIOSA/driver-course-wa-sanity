@@ -11,6 +11,7 @@ export const usersType = defineType({
       type: 'string',
       title: 'email',
       validation: (Rule) => Rule.email(),
+      unique: true,
     }),
     defineField({
       name: 'password',
