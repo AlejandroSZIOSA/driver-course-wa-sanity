@@ -17,7 +17,7 @@ export const usersType = defineType({
       name: 'password',
       type: 'string',
       title: 'hashed password',
-      hidden: true,
+      hidden: false,
     }),
   ],
 })
